@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestFarmPath", "BestFarmPath.csproj", "{CC8C20FD-53D9-44C1-A49D-2EB4C5C91139}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC68E71C-D6DA-4A40-A280-89727E47099D} = {AC68E71C-D6DA-4A40-A280-89727E47099D}
+		{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3} = {6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AntColonyOptimization", "..\AntColonyOptimization\AntColonyOptimization.csproj", "{AC68E71C-D6DA-4A40-A280-89727E47099D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MapConstructor", "..\MapConstructor\MapConstructor.csproj", "{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC8C20FD-53D9-44C1-A49D-2EB4C5C91139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8C20FD-53D9-44C1-A49D-2EB4C5C91139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8C20FD-53D9-44C1-A49D-2EB4C5C91139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8C20FD-53D9-44C1-A49D-2EB4C5C91139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC68E71C-D6DA-4A40-A280-89727E47099D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC68E71C-D6DA-4A40-A280-89727E47099D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC68E71C-D6DA-4A40-A280-89727E47099D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC68E71C-D6DA-4A40-A280-89727E47099D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6794BEF8-6DCF-4D1A-AD71-A6AB2F1BEDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFAFB2E9-208A-4300-BD43-11C7C8C682CC}
+	EndGlobalSection
+EndGlobal
